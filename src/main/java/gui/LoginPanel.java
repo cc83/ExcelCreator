@@ -14,7 +14,6 @@ import javax.swing.SwingWorker;
 import main.java.datasdownloading.HttpDownload;
 import main.java.datasdownloading.HttpMessage;
 import main.java.utils.SaveSettings;
-import main.java.utils.Utils;
 
 @SuppressWarnings("serial")
 public class LoginPanel extends SettingsChoicePanel {

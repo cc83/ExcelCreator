@@ -57,12 +57,12 @@ public class SaveSettings {
         map.put("login", loginName);
         saveFile();
     }
-
+    
     public static void changeAppLanguage(String language) {
-        map.put("language", language);
+    	map.put("language", language);
         saveFile();
     }
-
+    
     public static String getKey(String key) {
         return (String) map.get(key);
     }
@@ -75,7 +75,7 @@ public class SaveSettings {
         return (String) map.get("login");
     }
 
-    public static void changeLoginHasToBeRemembered(boolean hasToBeRemembered) {
+    public static void changeLoginHasToBeRemembered(boolean hasToBeRemembered){
         map.put("remember_login", hasToBeRemembered);
         saveFile();
     }
@@ -86,6 +86,6 @@ public class SaveSettings {
         System.out.println(getLogin());
         changeLoginHasToBeRemembered(false);
         System.out.println(loginHasToBeRemembered());
-
+        
     }
 }

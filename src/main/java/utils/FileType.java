@@ -28,9 +28,9 @@ public enum FileType {
 
         String res = "";
         if (this == FileType.EXCEL)
-            res = Internationalization.getKey("Excel files");
+            res = "Excel files";
         else
-            res = Internationalization.getKey("Images");
+            res = "Images";
 
         return res += " " + getExtensions();
     }
