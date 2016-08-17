@@ -308,7 +308,7 @@ public class MainWindow extends JFrame implements IMainFrame {
         CampaignChoicePanel ccp = (CampaignChoicePanel)panels.get(1);
         
         System.out.println(session.getAllRecordsByCampaignID(ccp.getSelectedId()));
-
+        pbw.setValue(100);
     }
 
 

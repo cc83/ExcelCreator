@@ -16,6 +16,11 @@ public class RecordWithTotal extends Record {
 		super();
 		this.totalImp = totalImp;
 	}
+
+    @Override
+    public String toString() {
+        return "RecordWithTotal [Publisher : "+publisherName+", totalImp : " + totalImp + "]";
+    }
 	
 	
 }

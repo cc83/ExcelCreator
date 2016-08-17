@@ -1,9 +1,9 @@
 package main.java.datasdownloading.entities;
 
 public class Record {
-	private String publisherName = "";
+	protected String publisherName = "";
 	
-	private String countryName = "";
+	protected String countryName = "";
 	
 	private int impressions;
 	
