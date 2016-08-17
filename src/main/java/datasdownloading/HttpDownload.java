@@ -19,10 +19,8 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 
-import main.java.datasdownloading.entities.Campaign;
 import main.java.datasdownloading.entities.CampaignHeader;
-import main.java.datasdownloading.entities.PeriodData;
-import main.java.excelreader.entities.CampaignRowPeriod;
+import main.java.datasdownloading.entities.Record;
 import main.java.utils.Utils;
 
 public class HttpDownload {
@@ -129,17 +127,7 @@ public class HttpDownload {
 
     
 
-    private HttpMessage getXmlDataByCampaignID(String campaignID) {
-        String url = "https://gdeapi.gemius.com/GetTechStats.php?ignoreEmptyParams=Y&sessionID="
-                +sessionId+"&dimensionIDs=10&indicatorIDs=4%2C2&techDimension=Country&campaignIDs="+
-                campaignID+"&showNames=Y";
-
-        HttpMessage m = sendGet(url);
-
-        if (m.isOk())
-            return new HttpMessage(true, "", m.getContent());
-        return m;
-    }
+    
 
     
 
@@ -148,7 +136,7 @@ public class HttpDownload {
     public boolean isSameLogin(HttpDownload other) {
         if (other == null)
             return false;
-        return other.client.equals(client) && other.password.equals(password);
+        return other.userName.equals(userName) && other.password.equals(password);
     }
 
     public boolean isSameLogin(String login, String password) {
@@ -168,15 +156,7 @@ public class HttpDownload {
 
     
 
-//    public static void main(String[] args) throws Exception {
-//        HttpDownload a = new HttpDownload();
-//        // Campaign c = a.getCampaignTechnicalById("557150106");
-//
-//        // System.out.println(/c.getCampaignContent());
-//        // System.out.println(c.getAll());
-////        HttpMessage m = a.getXmlAllData("557150106", "Week");
-////        System.out.println(m.getContent());
-//    }
+
 
     public static boolean isInternetConnected() {
 
@@ -262,12 +242,59 @@ public class HttpDownload {
     }
 
     
-    public List<CampaignHeader> getCampaignHeaders(String xmlHeaders) {
+    public List<CampaignHeader> getCampaignHeaders() {
 
+        String url = "https://gdeapi.gemius.com/GetCampaignsList.php?ignoreEmptyParams=Y&sessionID="+sessionId;
+
+        HttpMessage m = sendGet(url);
+
+        if (!m.isOk())
+            return new ArrayList<CampaignHeader>();
         
-            return xmlReader.getAllHeaders();
+            try {
+                return XmlReader.getHeaderList(m.getContent());
+            } catch (LoginException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                login(userName,password);
+                return getCampaignHeaders();
+                
+            }
         
 
     }
     
+    
+    private HttpMessage getXmlDataByCampaignID(String campaignID) {
+        String url = "https://gdeapi.gemius.com/GetTechStats.php?ignoreEmptyParams=Y&sessionID="
+                +sessionId+"&dimensionIDs=10&indicatorIDs=4%2C2&techDimension=Country&campaignIDs="+
+                campaignID+"&showNames=Y";
+
+        HttpMessage m = sendGet(url);
+
+        if (m.isOk())
+            return new HttpMessage(true, "", m.getContent());
+        return m;
+    }
+    
+    public List<Record> getAllRecordsByCampaignID(String campaignID) {
+        HttpMessage m = getXmlDataByCampaignID(campaignID);
+
+        if (m.isOk())
+            try {
+                return XmlReader.getAllRecords(m.getContent());
+            } catch (LoginException e) {
+                // TODO Auto-generated catch block
+//                e.printStackTrace();
+                login(userName,password);
+                return getAllRecordsByCampaignID(campaignID);
+            }
+        return new ArrayList<Record>();
+    }
+    
+    
+    public static void main(String[] args) throws Exception {
+        HttpDownload a = new HttpDownload();
+         System.out.println(a.getXmlDataByCampaignID("1871544794").getContent());
+    }
 }

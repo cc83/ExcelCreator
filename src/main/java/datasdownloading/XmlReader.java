@@ -60,7 +60,7 @@ public class XmlReader {
         return sessionID;
     }
 
-    public List<CampaignHeader> getHeaderList(String xmlDatas)
+    public static List<CampaignHeader> getHeaderList(String xmlDatas)
             throws LoginException {
         List<CampaignHeader> headerList = new ArrayList<>();
 
@@ -133,7 +133,7 @@ public class XmlReader {
         return headerList;
     }
 
-    public List<Record> getAllRecords(String xmlRecords) throws LoginException {
+    public static List<Record> getAllRecords(String xmlRecords) throws LoginException {
     	List<Record> records = new ArrayList<>();
     	
     	try {
@@ -194,4 +194,32 @@ public class XmlReader {
             
     }
 
+    
+public static String getStatus(String xmlDatas) {
+        
+
+        try {
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory
+                    .newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(new InputSource(
+                    new ByteArrayInputStream(xmlDatas.getBytes("utf-8"))));
+
+            doc.getDocumentElement().normalize();
+            Node root = doc.getDocumentElement();
+
+            if (root.getNodeType() == Node.ELEMENT_NODE) {
+
+                Element eElement = (Element) root;
+                String status = eElement.getElementsByTagName("status").item(0)
+                        .getTextContent();
+                return status;
+            }
+        } catch (Exception e) {
+        }
+
+        return "";
+
+    }
+    
 }

@@ -146,6 +146,7 @@ public class MainWindow extends JFrame implements IMainFrame {
         
         
         createPanelsInternet();
+        np.hidePreviousButton();
 
     }
 
@@ -164,11 +165,20 @@ public class MainWindow extends JFrame implements IMainFrame {
     }
 
     public void showNextPanel() {
+        
 
         getContentPane().remove(panels.get(currentPanel));
         currentPanel++;
         getContentPane().add(panels.get(currentPanel));
 
+        
+        if (currentPanel == panels.size()-1)
+            np.showValidateButton();
+        else
+            np.showNextButton();
+        
+        np.showPreviousButton();
+        
         repaint();
         setVisible(true);
     }
@@ -179,6 +189,12 @@ public class MainWindow extends JFrame implements IMainFrame {
         currentPanel--;
         getContentPane().add(panels.get(currentPanel));
 
+        if (currentPanel == 0)
+            np.hidePreviousButton();
+        else
+            np.showPreviousButton();
+        np.showNextButton();
+        
         repaint();
         setVisible(true);
     }
@@ -293,22 +309,6 @@ public class MainWindow extends JFrame implements IMainFrame {
 
     }
 
-  
-
-    private void reloadPanels() {
-
-        LinkedList<SettingsChoicePanel> panels2 = new LinkedList<SettingsChoicePanel>();
-        for (SettingsChoicePanel settingsChoicePanel : panels) {
-            panels2.add(settingsChoicePanel.getNewInstance());
-        }
-
-        getContentPane().remove(panels.get(currentPanel));
-        panels = panels2;
-        currentPanel = 0;
-        getContentPane().add(panels.get(currentPanel));
-    }
-
-   
 
     public void createPanelsInternet() {
 
@@ -337,27 +337,25 @@ public class MainWindow extends JFrame implements IMainFrame {
     public void nextPanel() {
         if (panels.get(currentPanel).isEveryThingOk()) {
 
-            np.showPreviousButton();
+            
             showNextPanel();
-            if (currentPanel == panels.size() - 1) {
-                np.showValidateButton();
-
-            }
+            
 
         }
         // else
         // System.out.println(m.getMessages());
 
+       
     }
 
     @Override
     public void previousPanel() {
         np.showNextButton();
 
-        if (currentPanel > 0) {
+        if (currentPanel > 0) 
             showPreviousPanel();
-            np.showPreviousButton();
-        }
+            
+       
 
         
     }
