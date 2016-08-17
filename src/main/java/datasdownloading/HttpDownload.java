@@ -62,7 +62,7 @@ public class HttpDownload {
     }
 
     public HttpDownload() throws Exception {
-        this("zburi_owner", "ad12dac");
+        this("omg_hu_api_test", "cpr4932sw");
     }
 
     private static HttpMessage sendGet(String url) {
@@ -261,4 +261,13 @@ public class HttpDownload {
         return new HttpMessage(true, "", "");
     }
 
+    
+    public List<CampaignHeader> getCampaignHeaders() {
+
+        
+            return xmlReader.getAllHeaders();
+        
+
+    }
+    
 }

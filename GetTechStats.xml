@@ -1,35 +1,1955 @@
 <GetTechStats>
   <status>OK</status>
-  <statisticsNumber>3</statisticsNumber>
+  <statisticsNumber>195</statisticsNumber>
   <statistics>
     <statisticsRecord>
-      <campaignID>1748140363</campaignID>
-      <campaignName>test_zburi</campaignName>
-      <publisherID>1135503769</publisherID>
-      <publisherName>Pannon Lapok Társasága</publisherName>
-      <countryID>39</countryID>
-      <countryName>Germany</countryName>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>NULL</countryID>
+      <countryName>Unrecognized</countryName>
+      <impressions>35</impressions>
+      <clicks>6</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>NULL</countryID>
+      <countryName>Unrecognized</countryName>
+      <impressions>101</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>1</countryID>
+      <countryName>South Korea</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>1</countryID>
+      <countryName>South Korea</countryName>
+      <impressions>31</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>2</countryID>
+      <countryName>Malaysia</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>2</countryID>
+      <countryName>Malaysia</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>4</countryID>
+      <countryName>Georgia</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>4</countryID>
+      <countryName>Georgia</countryName>
       <impressions>1</impressions>
       <clicks>NULL</clicks>
     </statisticsRecord>
     <statisticsRecord>
-      <campaignID>1748140363</campaignID>
-      <campaignName>test_zburi</campaignName>
-      <publisherID>1135503769</publisherID>
-      <publisherName>Pannon Lapok Társasága</publisherName>
-      <countryID>42</countryID>
-      <countryName>Poland</countryName>
-      <impressions>25</impressions>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>5</countryID>
+      <countryName>Vietnam</countryName>
+      <impressions>12</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>5</countryID>
+      <countryName>Vietnam</countryName>
+      <impressions>6</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>8</countryID>
+      <countryName>Estonia</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>8</countryID>
+      <countryName>Estonia</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>9</countryID>
+      <countryName>Dominican Republic</countryName>
+      <impressions>7</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>9</countryID>
+      <countryName>Dominican Republic</countryName>
+      <impressions>14</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>10</countryID>
+      <countryName>Burundi</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>11</countryID>
+      <countryName>Reunion</countryName>
+      <impressions>12</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>13</countryID>
+      <countryName>San Marino</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>14</countryID>
+      <countryName>Ireland</countryName>
+      <impressions>224</impressions>
+      <clicks>22</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>14</countryID>
+      <countryName>Ireland</countryName>
+      <impressions>651</impressions>
+      <clicks>18</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>15</countryID>
+      <countryName>Saint Vincent and the Grenadines</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>17</countryID>
+      <countryName>Cyprus</countryName>
+      <impressions>29</impressions>
       <clicks>2</clicks>
     </statisticsRecord>
     <statisticsRecord>
-      <campaignID>1748140363</campaignID>
-      <campaignName>test_zburi</campaignName>
-      <publisherID>1135503769</publisherID>
-      <publisherName>Pannon Lapok Társasága</publisherName>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>17</countryID>
+      <countryName>Cyprus</countryName>
+      <impressions>85</impressions>
+      <clicks>6</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>18</countryID>
+      <countryName>France</countryName>
+      <impressions>236</impressions>
+      <clicks>22</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>18</countryID>
+      <countryName>France</countryName>
+      <impressions>857</impressions>
+      <clicks>21</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>19</countryID>
+      <countryName>Brazil</countryName>
+      <impressions>12</impressions>
+      <clicks>3</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>19</countryID>
+      <countryName>Brazil</countryName>
+      <impressions>41</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>20</countryID>
+      <countryName>Belgium</countryName>
+      <impressions>188</impressions>
+      <clicks>8</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>20</countryID>
+      <countryName>Belgium</countryName>
+      <impressions>377</impressions>
+      <clicks>9</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>25</countryID>
+      <countryName>Indonesia</countryName>
+      <impressions>14</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>28</countryID>
+      <countryName>Oman</countryName>
+      <impressions>5</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>28</countryID>
+      <countryName>Oman</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>32</countryID>
+      <countryName>French Polinesia</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>34</countryID>
+      <countryName>Egypt</countryName>
+      <impressions>5</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>35</countryID>
+      <countryName>Chile</countryName>
+      <impressions>2</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>37</countryID>
+      <countryName>Albania</countryName>
+      <impressions>9</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>37</countryID>
+      <countryName>Albania</countryName>
+      <impressions>9</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>38</countryID>
+      <countryName>Ivory Coast</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>39</countryID>
+      <countryName>Germany</countryName>
+      <impressions>4329</impressions>
+      <clicks>424</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>39</countryID>
+      <countryName>Germany</countryName>
+      <impressions>5759</impressions>
+      <clicks>164</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>42</countryID>
+      <countryName>Poland</countryName>
+      <impressions>336</impressions>
+      <clicks>43</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>42</countryID>
+      <countryName>Poland</countryName>
+      <impressions>536</impressions>
+      <clicks>10</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
       <countryID>44</countryID>
       <countryName>Hungary</countryName>
+      <impressions>99888</impressions>
+      <clicks>9758</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>44</countryID>
+      <countryName>Hungary</countryName>
+      <impressions>156634</impressions>
+      <clicks>7863</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>47</countryID>
+      <countryName>Azerbajian</countryName>
+      <impressions>NULL</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>47</countryID>
+      <countryName>Azerbajian</countryName>
+      <impressions>2</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>56</countryID>
+      <countryName>Sweden</countryName>
+      <impressions>256</impressions>
+      <clicks>30</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>56</countryID>
+      <countryName>Sweden</countryName>
+      <impressions>512</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>60</countryID>
+      <countryName>Australia</countryName>
+      <impressions>50</impressions>
+      <clicks>5</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>60</countryID>
+      <countryName>Australia</countryName>
+      <impressions>141</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>61</countryID>
+      <countryName>Finland</countryName>
+      <impressions>42</impressions>
+      <clicks>5</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>61</countryID>
+      <countryName>Finland</countryName>
+      <impressions>123</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>66</countryID>
+      <countryName>Kuwait</countryName>
+      <impressions>16</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>66</countryID>
+      <countryName>Kuwait</countryName>
+      <impressions>2</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>68</countryID>
+      <countryName>United Arab Emirates</countryName>
+      <impressions>21</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>68</countryID>
+      <countryName>United Arab Emirates</countryName>
+      <impressions>96</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>70</countryID>
+      <countryName>Turkey</countryName>
+      <impressions>37</impressions>
+      <clicks>20</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>70</countryID>
+      <countryName>Turkey</countryName>
+      <impressions>244</impressions>
+      <clicks>4</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>73</countryID>
+      <countryName>Switzerland</countryName>
+      <impressions>764</impressions>
+      <clicks>58</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>73</countryID>
+      <countryName>Switzerland</countryName>
+      <impressions>1206</impressions>
+      <clicks>38</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>74</countryID>
+      <countryName>India</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>74</countryID>
+      <countryName>India</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>75</countryID>
+      <countryName>Taiwan</countryName>
+      <impressions>2</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>75</countryID>
+      <countryName>Taiwan</countryName>
+      <impressions>13</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>76</countryID>
+      <countryName>Russian Federation</countryName>
+      <impressions>20</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>76</countryID>
+      <countryName>Russian Federation</countryName>
+      <impressions>75</impressions>
+      <clicks>3</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>77</countryID>
+      <countryName>Bangladesh</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>79</countryID>
+      <countryName>Mongolia</countryName>
+      <impressions>6</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>79</countryID>
+      <countryName>Mongolia</countryName>
+      <impressions>3</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>80</countryID>
+      <countryName>Republic of South Africa</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>80</countryID>
+      <countryName>Republic of South Africa</countryName>
+      <impressions>13</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>81</countryID>
+      <countryName>Macedonia</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>81</countryID>
+      <countryName>Macedonia</countryName>
+      <impressions>2</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>83</countryID>
+      <countryName>New Caledonia</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>84</countryID>
+      <countryName>United States</countryName>
+      <impressions>1654</impressions>
+      <clicks>140</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>84</countryID>
+      <countryName>United States</countryName>
+      <impressions>3399</impressions>
+      <clicks>29</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>85</countryID>
+      <countryName>Argentina</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>86</countryID>
+      <countryName>Kazakhstan</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>86</countryID>
+      <countryName>Kazakhstan</countryName>
+      <impressions>5</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>87</countryID>
+      <countryName>Yemen</countryName>
+      <impressions>17</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>91</countryID>
+      <countryName>Peru</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>93</countryID>
+      <countryName>Thailand</countryName>
+      <impressions>16</impressions>
+      <clicks>3</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>93</countryID>
+      <countryName>Thailand</countryName>
+      <impressions>16</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>100</countryID>
+      <countryName>Mexico</countryName>
+      <impressions>7</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>100</countryID>
+      <countryName>Mexico</countryName>
+      <impressions>13</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>101</countryID>
+      <countryName>Puerto Rico</countryName>
+      <impressions>10</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>101</countryID>
+      <countryName>Puerto Rico</countryName>
+      <impressions>5</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>102</countryID>
+      <countryName>Israel</countryName>
+      <impressions>36</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>102</countryID>
+      <countryName>Israel</countryName>
+      <impressions>128</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>103</countryID>
+      <countryName>Iraq</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>103</countryID>
+      <countryName>Iraq</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>105</countryID>
+      <countryName>Gibraltar</countryName>
+      <impressions>5</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>109</countryID>
+      <countryName>Syria</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>111</countryID>
+      <countryName>Luxembourg</countryName>
+      <impressions>49</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>111</countryID>
+      <countryName>Luxembourg</countryName>
+      <impressions>60</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>113</countryID>
+      <countryName>Fiji</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>114</countryID>
+      <countryName>Algeria</countryName>
+      <impressions>9</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>115</countryID>
+      <countryName>Netherlands</countryName>
+      <impressions>548</impressions>
+      <clicks>68</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>115</countryID>
+      <countryName>Netherlands</countryName>
+      <impressions>935</impressions>
+      <clicks>25</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>116</countryID>
+      <countryName>Morocco</countryName>
       <impressions>12</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>118</countryID>
+      <countryName>Bahamas</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>119</countryID>
+      <countryName>Angola</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>121</countryID>
+      <countryName>Singapore</countryName>
+      <impressions>10</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>121</countryID>
+      <countryName>Singapore</countryName>
+      <impressions>9</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>125</countryID>
+      <countryName>China</countryName>
+      <impressions>NULL</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>125</countryID>
+      <countryName>China</countryName>
+      <impressions>6</impressions>
+      <clicks>3</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>128</countryID>
+      <countryName>Czech Republic</countryName>
+      <impressions>151</impressions>
+      <clicks>10</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>128</countryID>
+      <countryName>Czech Republic</countryName>
+      <impressions>236</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>131</countryID>
+      <countryName>Spain</countryName>
+      <impressions>204</impressions>
+      <clicks>33</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>131</countryID>
+      <countryName>Spain</countryName>
+      <impressions>316</impressions>
+      <clicks>8</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>133</countryID>
+      <countryName>Ukraine</countryName>
+      <impressions>220</impressions>
+      <clicks>15</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>133</countryID>
+      <countryName>Ukraine</countryName>
+      <impressions>405</impressions>
+      <clicks>30</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>136</countryID>
+      <countryName>Pakistan</countryName>
+      <impressions>NULL</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>136</countryID>
+      <countryName>Pakistan</countryName>
+      <impressions>6</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>138</countryID>
+      <countryName>Bulgaria</countryName>
+      <impressions>38</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>138</countryID>
+      <countryName>Bulgaria</countryName>
+      <impressions>58</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>140</countryID>
+      <countryName>Barbados</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>141</countryID>
+      <countryName>Tanzania</countryName>
+      <impressions>1</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>148</countryID>
+      <countryName>Saudi Arabia</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>148</countryID>
+      <countryName>Saudi Arabia</countryName>
+      <impressions>4</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>149</countryID>
+      <countryName>Iceland</countryName>
+      <impressions>12</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>150</countryID>
+      <countryName>Iran</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>151</countryID>
+      <countryName>Bosnia &amp; Hercegovina</countryName>
+      <impressions>19</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>151</countryID>
+      <countryName>Bosnia &amp; Hercegovina</countryName>
+      <impressions>7</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>152</countryID>
+      <countryName>Uruguay</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>153</countryID>
+      <countryName>Philippines</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>155</countryID>
+      <countryName>Denmark</countryName>
+      <impressions>156</impressions>
+      <clicks>13</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>155</countryID>
+      <countryName>Denmark</countryName>
+      <impressions>343</impressions>
+      <clicks>5</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>156</countryID>
+      <countryName>Bermuda</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>156</countryID>
+      <countryName>Bermuda</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>157</countryID>
+      <countryName>Kenya</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>158</countryID>
+      <countryName>Mauritania</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>159</countryID>
+      <countryName>Portugal</countryName>
+      <impressions>36</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>159</countryID>
+      <countryName>Portugal</countryName>
+      <impressions>22</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>161</countryID>
+      <countryName>Slovakia</countryName>
+      <impressions>2393</impressions>
+      <clicks>231</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>161</countryID>
+      <countryName>Slovakia</countryName>
+      <impressions>3346</impressions>
+      <clicks>145</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>165</countryID>
+      <countryName>Norway</countryName>
+      <impressions>176</impressions>
+      <clicks>20</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>165</countryID>
+      <countryName>Norway</countryName>
+      <impressions>225</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>170</countryID>
+      <countryName>United Kingdom</countryName>
+      <impressions>4230</impressions>
+      <clicks>335</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>170</countryID>
+      <countryName>United Kingdom</countryName>
+      <impressions>5190</impressions>
+      <clicks>92</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>172</countryID>
+      <countryName>New Zealand</countryName>
+      <impressions>13</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>172</countryID>
+      <countryName>New Zealand</countryName>
+      <impressions>28</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>175</countryID>
+      <countryName>Slovenia</countryName>
+      <impressions>61</impressions>
+      <clicks>5</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>175</countryID>
+      <countryName>Slovenia</countryName>
+      <impressions>74</impressions>
+      <clicks>4</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>178</countryID>
+      <countryName>Latvia</countryName>
+      <impressions>7</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>179</countryID>
+      <countryName>Croatia</countryName>
+      <impressions>379</impressions>
+      <clicks>81</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>179</countryID>
+      <countryName>Croatia</countryName>
+      <impressions>405</impressions>
+      <clicks>12</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>181</countryID>
+      <countryName>Kyrgyzstan</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>182</countryID>
+      <countryName>Paraguay</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>183</countryID>
+      <countryName>Panama</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>183</countryID>
+      <countryName>Panama</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>184</countryID>
+      <countryName>Belarus</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>185</countryID>
+      <countryName>Qatar</countryName>
+      <impressions>6</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>186</countryID>
+      <countryName>Tunisia</countryName>
+      <impressions>NULL</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>186</countryID>
+      <countryName>Tunisia</countryName>
+      <impressions>6</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>188</countryID>
+      <countryName>Lithuania</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>188</countryID>
+      <countryName>Lithuania</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>191</countryID>
+      <countryName>Italy</countryName>
+      <impressions>267</impressions>
+      <clicks>36</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>191</countryID>
+      <countryName>Italy</countryName>
+      <impressions>360</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>199</countryID>
+      <countryName>Venezuela</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>200</countryID>
+      <countryName>Greece</countryName>
+      <impressions>123</impressions>
+      <clicks>23</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>200</countryID>
+      <countryName>Greece</countryName>
+      <impressions>145</impressions>
+      <clicks>3</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>201</countryID>
+      <countryName>Mauritius</countryName>
+      <impressions>3</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>205</countryID>
+      <countryName>Bahrain</countryName>
+      <impressions>1</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>207</countryID>
+      <countryName>Moldavia</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>211</countryID>
+      <countryName>Martinique</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>213</countryID>
+      <countryName>Aruba</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>213</countryID>
+      <countryName>Aruba</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>214</countryID>
+      <countryName>Malta</countryName>
+      <impressions>64</impressions>
+      <clicks>12</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>214</countryID>
+      <countryName>Malta</countryName>
+      <impressions>87</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>217</countryID>
+      <countryName>Senegal</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>218</countryID>
+      <countryName>Hong Kong</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>218</countryID>
+      <countryName>Hong Kong</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>220</countryID>
+      <countryName>Canada</countryName>
+      <impressions>544</impressions>
+      <clicks>35</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>220</countryID>
+      <countryName>Canada</countryName>
+      <impressions>1826</impressions>
+      <clicks>33</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>221</countryID>
+      <countryName>Austria</countryName>
+      <impressions>2748</impressions>
+      <clicks>298</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>221</countryID>
+      <countryName>Austria</countryName>
+      <impressions>3143</impressions>
+      <clicks>86</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>223</countryID>
+      <countryName>Cayman</countryName>
+      <impressions>24</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>224</countryID>
+      <countryName>Monaco</countryName>
+      <impressions>3</impressions>
+      <clicks>1</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>224</countryID>
+      <countryName>Monaco</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>225</countryID>
+      <countryName>Japan</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>225</countryID>
+      <countryName>Japan</countryName>
+      <impressions>43</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>229</countryID>
+      <countryName>Columbia</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>232</countryID>
+      <countryName>Guadeloupe</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>233</countryID>
+      <countryName>Gabon</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>234</countryID>
+      <countryName>Madagascar</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>239</countryID>
+      <countryName>Romania</countryName>
+      <impressions>5948</impressions>
+      <clicks>688</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>239</countryID>
+      <countryName>Romania</countryName>
+      <impressions>3537</impressions>
+      <clicks>257</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>242</countryID>
+      <countryName>Jordan</countryName>
+      <impressions>2</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>242</countryID>
+      <countryName>Jordan</countryName>
+      <impressions>3</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>243</countryID>
+      <countryName>Liechtenstein</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>243</countryID>
+      <countryName>Liechtenstein</countryName>
+      <impressions>4</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>247</countryID>
+      <countryName>Serbia</countryName>
+      <impressions>909</impressions>
+      <clicks>84</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>247</countryID>
+      <countryName>Serbia</countryName>
+      <impressions>1421</impressions>
+      <clicks>66</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>590110525</publisherID>
+      <publisherName>rtlonline</publisherName>
+      <countryID>248</countryID>
+      <countryName>Montenegro</countryName>
+      <impressions>43</impressions>
+      <clicks>7</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1871544794</campaignID>
+      <campaignName>Henkel Somat (1331)</campaignName>
+      <publisherID>159677064</publisherID>
+      <publisherName>tv2hu</publisherName>
+      <countryID>248</countryID>
+      <countryName>Montenegro</countryName>
+      <impressions>32</impressions>
       <clicks>NULL</clicks>
     </statisticsRecord>
   </statistics>
