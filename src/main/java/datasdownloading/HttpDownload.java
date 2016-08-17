@@ -129,7 +129,7 @@ public class HttpDownload {
 
     
 
-    private HttpMessage getXmlData(String campaignID) {
+    private HttpMessage getXmlDataByCampaignID(String campaignID) {
         String url = "https://gdeapi.gemius.com/GetTechStats.php?ignoreEmptyParams=Y&sessionID="
                 +sessionId+"&dimensionIDs=10&indicatorIDs=4%2C2&techDimension=Country&campaignIDs="+
                 campaignID+"&showNames=Y";
@@ -262,7 +262,7 @@ public class HttpDownload {
     }
 
     
-    public List<CampaignHeader> getCampaignHeaders() {
+    public List<CampaignHeader> getCampaignHeaders(String xmlHeaders) {
 
         
             return xmlReader.getAllHeaders();
