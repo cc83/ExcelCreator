@@ -305,7 +305,9 @@ public class MainWindow extends JFrame implements IMainFrame {
 
     private void doValidationInSwingWorker() {
 
+        CampaignChoicePanel ccp = (CampaignChoicePanel)panels.get(1);
         
+        System.out.println(session.getAllRecordsByCampaignID(ccp.getSelectedId()));
 
     }
 
