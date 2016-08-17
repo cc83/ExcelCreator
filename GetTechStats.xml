@@ -1,0 +1,36 @@
+<GetTechStats>
+  <status>OK</status>
+  <statisticsNumber>3</statisticsNumber>
+  <statistics>
+    <statisticsRecord>
+      <campaignID>1748140363</campaignID>
+      <campaignName>test_zburi</campaignName>
+      <publisherID>1135503769</publisherID>
+      <publisherName>Pannon Lapok Társasága</publisherName>
+      <countryID>39</countryID>
+      <countryName>Germany</countryName>
+      <impressions>1</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1748140363</campaignID>
+      <campaignName>test_zburi</campaignName>
+      <publisherID>1135503769</publisherID>
+      <publisherName>Pannon Lapok Társasága</publisherName>
+      <countryID>42</countryID>
+      <countryName>Poland</countryName>
+      <impressions>25</impressions>
+      <clicks>2</clicks>
+    </statisticsRecord>
+    <statisticsRecord>
+      <campaignID>1748140363</campaignID>
+      <campaignName>test_zburi</campaignName>
+      <publisherID>1135503769</publisherID>
+      <publisherName>Pannon Lapok Társasága</publisherName>
+      <countryID>44</countryID>
+      <countryName>Hungary</countryName>
+      <impressions>12</impressions>
+      <clicks>NULL</clicks>
+    </statisticsRecord>
+  </statistics>
+</GetTechStats>
