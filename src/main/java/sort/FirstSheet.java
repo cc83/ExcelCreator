@@ -7,6 +7,7 @@ import java.util.List;
 
 import main.java.datasdownloading.entities.Country;
 import main.java.datasdownloading.entities.Record;
+import main.java.datasdownloading.entities.RecordWithTotal;
 import main.java.datasdownloading.entities.RecordWithTotalChainedComparator;
 
 public class FirstSheet {
@@ -61,4 +62,22 @@ public class FirstSheet {
 		
 		return countries;
 	}
+	
+	
+	
+	public  static List<RecordWithTotal> getRecordWithDataList(List<Country> countries) {
+	    List<RecordWithTotal> list = new ArrayList<>();
+	    
+	    for (Country c : countries) {
+	        int total = c.getTotal().getImpressions();
+	        List<Record> records = c.getRecords();
+                for (Record r : records) {
+                    RecordWithTotal rwt = new RecordWithTotal(r, total);
+                    list.add(rwt);
+                }
+            }
+	    
+	    return list;
+	}
+	
 }
