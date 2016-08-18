@@ -26,6 +26,7 @@ import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import main.java.datasdownloading.HttpDownload;
+import main.java.excelwriter.ExcelWriter;
 import main.java.sort.FirstSheet;
 import main.java.utils.FileType;
 
@@ -308,9 +309,13 @@ public class MainWindow extends JFrame implements IMainFrame {
 
         CampaignChoicePanel ccp = (CampaignChoicePanel)panels.get(1);
         
-        System.out.println(session.getAllRecordsByCampaignID(ccp.getSelectedId()));
-        System.out.println("merguez merguez\n\n\nmerguez\n");
-        System.out.println(FirstSheet.getCountryList(session.getAllRecordsByCampaignID(ccp.getSelectedId())));
+//        System.out.println(session.getAllRecordsByCampaignID(ccp.getSelectedId()));
+//        System.out.println("merguez merguez\n\n\nmerguez\n");
+//        System.out.println(FirstSheet.getCountryList(session.getAllRecordsByCampaignID(ccp.getSelectedId())));
+        
+        ExcelWriter writer = new ExcelWriter();
+        writer.writeExcelDocument("chine.xls",session.getAllRecordsByCampaignID(ccp.getSelectedId()));
+        
         pbw.setValue(100);
     }
 

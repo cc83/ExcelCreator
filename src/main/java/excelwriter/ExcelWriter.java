@@ -3,6 +3,7 @@ package main.java.excelwriter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -12,6 +13,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import main.java.datasdownloading.entities.Country;
 import main.java.datasdownloading.entities.Record;
 import main.java.datasdownloading.entities.RecordWithTotal;
+import main.java.datasdownloading.entities.RecordWithTotalChainedComparator;
 import main.java.sort.FirstSheet;
 
 
@@ -72,7 +74,21 @@ public  class ExcelWriter {
 
     private void writeSecondSheetData(HSSFSheet sheet, List<RecordWithTotal> list) {
         HSSFRow row = sheet.createRow(0);
-        row.createCell(0).setCellValue("zhengqin");
+        row.createCell(0).setCellValue("Publisher");
+        row.createCell(1).setCellValue("Country");
+        row.createCell(2).setCellValue("Impressions");
+        row.createCell(3).setCellValue("Clicks");
+        
+        Collections.sort(list,RecordWithTotalChainedComparator.getComparator(RecordWithTotalChainedComparator.PUBLISHER_NAME,RecordWithTotalChainedComparator.TOTAL_DESC));
+     
+        int i = 1;
+        for (RecordWithTotal r : list) {
+            HSSFRow ro = sheet.createRow(i++);
+            ro.createCell(0).setCellValue(r.getPublisherName());
+            ro.createCell(1).setCellValue(r.getCountryName());
+            ro.createCell(2).setCellValue(r.getImpressions());
+            ro.createCell(3).setCellValue(r.getClicks());
+        }
     }
 
 
