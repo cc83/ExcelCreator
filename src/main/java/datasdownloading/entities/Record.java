@@ -1,15 +1,19 @@
 package main.java.datasdownloading.entities;
 
 public class Record {
-	protected String publisherName = "";
+	protected String publisherName;
 	
-	protected String countryName = "";
+	protected String countryName;
 	
 	private int impressions;
 	
 	private int clicks;
 
 	public Record() {
+		publisherName = "";
+		countryName = "";
+		impressions = 0;
+		clicks = 0;
 	}
 
 	public Record(String publisherName, String countryName, int impressions, int clicks) {
@@ -49,5 +53,11 @@ public class Record {
 
 	public void setClicks(int clicks) {
 		this.clicks = clicks;
+	}
+
+	@Override
+	public String toString() {
+		return "Record [publisherName=" + publisherName + ", countryName=" + countryName + ", impressions="
+				+ impressions + ", clicks=" + clicks + "]";
 	}
 }
