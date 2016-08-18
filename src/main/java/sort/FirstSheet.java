@@ -60,6 +60,16 @@ public class FirstSheet {
 			}
 		});
 		
+		for (Country cr : countries) {
+			cr.getRecords().sort(new Comparator<Record>() {
+
+				@Override
+				public int compare(Record o1, Record o2) {
+					return o2.getImpressions() - o1.getImpressions();
+				}
+			});
+		}
+		
 		return countries;
 	}
 	
