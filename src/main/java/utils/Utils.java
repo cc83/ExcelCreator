@@ -1,28 +1,15 @@
 package main.java.utils;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.text.Normalizer;
-import java.text.SimpleDateFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 
 public class Utils {
 
     public static int TMP = 0;
-
-    public static String changeExtension(String nameXls) {
-        String namePdf = nameXls.substring(0, nameXls.length() - 3);
-        namePdf += "pdf";
-
-        return namePdf;
-    }
 
     public static boolean isXlsExension(String path) {
         if (path.length() < 5) {
@@ -95,80 +82,6 @@ public class Utils {
             return getNewFileBaseName(fileName, extension, copy + 1);
 
         return name;
-
-    }
-
-    public static String splitLongTextToFitPage(String txt) {
-        int maxLength = 40;
-        StringBuilder res = new StringBuilder();
-        int cpt = 0;
-        for (int i = 0; i < txt.length(); i++) {
-            if (cpt > maxLength && txt.charAt(i) == ' ') {
-                res.append("\n");
-                cpt = 0;
-
-            } else
-                res.append(txt.charAt(i));
-            cpt++;
-
-        }
-        return res.toString();
-
-    }
-
-    public static String convertDateToTimePeriodWeekly(Date date,
-            String dateFormat) {
-        SimpleDateFormat f = new SimpleDateFormat(dateFormat);
-
-        int noOfDays = 7;
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
-        int weekNumber = calendar.get(Calendar.WEEK_OF_YEAR);
-        calendar.add(Calendar.DAY_OF_YEAR, noOfDays);
-        Date dateEnd = calendar.getTime();
-
-        return f.format(date) + " - " + f.format(dateEnd) + " (" + weekNumber
-                + ")";
-    }
-
-    public static String convertDateToTimePeriodMonthly(Date date,
-            String dateFormat) {
-        SimpleDateFormat f = new SimpleDateFormat(dateFormat);
-
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
-        int monthNumber = calendar.get(Calendar.MONTH);
-        calendar.add(Calendar.MONTH, 1);
-        Date dateEnd = calendar.getTime();
-
-        return f.format(date) + " - " + f.format(dateEnd) + " ("
-                + (monthNumber + 1) + ")";
-    }
-
-    public static void main(String[] args)
-            throws FileNotFoundException, UnsupportedEncodingException {
-        // while (true) {
-        // String brazil = getPdfName("or.be öàç@&{'($¤**µ§<>go_ zéù%ccc-");
-        // System.out.println(brazil);
-        //
-        // PrintWriter writer = new PrintWriter(brazil, "UTF-8");
-        // writer.println("The first line");
-        //
-        // writer.close();
-        Date d = new Date(Long.parseLong("1451830653") * 1000);
-        // System.out.println(convertDateToTimePeriodWeekly(new
-        // Date(Long.parseLong("1442188800")*1000),"yyyy. MM. dd"));
-
-        SimpleDateFormat f = new SimpleDateFormat("yyyy. MM. dd");
-
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(d);
-        int monthNumber = calendar.get(Calendar.MONTH);
-        calendar.add(Calendar.MONTH, 1);
-        Date dateEnd = calendar.getTime();
-
-        System.out.println(f.format(d) + " - " + f.format(dateEnd) + " ("
-                + (monthNumber + 1) + ")");
 
     }
 

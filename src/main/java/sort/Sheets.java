@@ -10,7 +10,7 @@ import main.java.datasdownloading.entities.Record;
 import main.java.datasdownloading.entities.RecordWithTotal;
 import main.java.datasdownloading.entities.RecordWithTotalChainedComparator;
 
-public class FirstSheet {
+public class Sheets {
 
 	public static List<Country> getCountryList(List<Record> records) {
 		List<Country> countries = new ArrayList<>();

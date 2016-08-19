@@ -18,7 +18,7 @@ import main.java.datasdownloading.entities.Country;
 import main.java.datasdownloading.entities.Record;
 import main.java.datasdownloading.entities.RecordWithTotal;
 import main.java.datasdownloading.entities.RecordWithTotalChainedComparator;
-import main.java.sort.FirstSheet;
+import main.java.sort.Sheets;
 
 
 
@@ -68,11 +68,11 @@ public  class ExcelWriter {
             HSSFSheet sheet2 = workbook.createSheet("Sheet 2");
 
 
-            List<Country> countries = FirstSheet.getCountryList(records);
+            List<Country> countries = Sheets.getCountryList(records);
 
             writeFirstSheetData(sheet1,countries);
             
-            writeSecondSheetData(sheet2,FirstSheet.getRecordWithDataList(countries));
+            writeSecondSheetData(sheet2,Sheets.getRecordWithDataList(countries));
 
             workbook.write(fos);
 
