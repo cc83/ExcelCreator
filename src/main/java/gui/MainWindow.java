@@ -3,6 +3,7 @@ package main.java.gui;
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Cursor;
+import java.awt.Desktop;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,6 +12,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -29,6 +31,7 @@ import main.java.datasdownloading.HttpDownload;
 import main.java.excelwriter.ExcelWriter;
 import main.java.sort.FirstSheet;
 import main.java.utils.FileType;
+import main.java.utils.Utils;
 
 @SuppressWarnings("serial")
 public class MainWindow extends JFrame implements IMainFrame {
@@ -314,9 +317,24 @@ public class MainWindow extends JFrame implements IMainFrame {
 //        System.out.println(FirstSheet.getCountryList(session.getAllRecordsByCampaignID(ccp.getSelectedId())));
         
         ExcelWriter writer = new ExcelWriter();
-        writer.writeExcelDocument("chine.xls",session.getAllRecordsByCampaignID(ccp.getSelectedId()));
+        
+        String fileName =Utils.getFileName(
+                ccp.getSelectedCampaignName(),"xls");
+        
+        writer.writeExcelDocument(fileName,session.getAllRecordsByCampaignID(ccp.getSelectedId()));
         
         pbw.setValue(100);
+        
+        
+        if (Desktop.isDesktopSupported()) {
+            try {
+                File myFile = new File(fileName);
+                Desktop.getDesktop().open(myFile);
+            } catch (IOException ex) {
+                // no application registered for PDFs
+            }
+        }
+        
     }
 
 

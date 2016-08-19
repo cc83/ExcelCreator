@@ -35,6 +35,7 @@ public class CampaignChoicePanel extends SettingsChoicePanel {
     private HttpDownload htpdl;
     private JScrollPane scrollPane;
     private JTextField txtFilter;
+    private ArrayList<String> campaignNames;
 
     public CampaignChoicePanel() {
         super("Campaign choice");
@@ -112,6 +113,7 @@ public class CampaignChoicePanel extends SettingsChoicePanel {
         columnNames.addElement("<html><b>End date</b></html>");
 
         campaignHeaders = new ArrayList<String>();
+        campaignNames = new ArrayList<String>();
 
         @SuppressWarnings("rawtypes")
         Vector<Vector> rowData = new Vector<Vector>();
@@ -128,6 +130,7 @@ public class CampaignChoicePanel extends SettingsChoicePanel {
             rowData.addElement(row);
 
             campaignHeaders.add(campaignHeader.getCampaignID());
+            campaignNames.add(campaignHeader.getCampaignName());
         }
 
         DefaultTableModel model = new DefaultTableModel(rowData, columnNames) {
@@ -244,5 +247,10 @@ public class CampaignChoicePanel extends SettingsChoicePanel {
         return campaignHeaders
                 .get(table.convertRowIndexToModel(table.getSelectedRow()));
     }
+    
+    public String getSelectedCampaignName(){
+        return campaignNames.get(table.convertRowIndexToModel(table.getSelectedRow()));
+    }
+    
 
 }

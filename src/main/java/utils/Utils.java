@@ -66,13 +66,13 @@ public class Utils {
         return 0;
     }
 
-    public static String getPdfName(String campaignName) {
+    public static String getFileName(String campaignName,String extension) {
 
         String res = deAccent(campaignName);
         res = res.replaceAll(" ", "_");
         res = res.replaceAll("[^a-zA-Z0-9_\\-\\.]+", "");
 
-        return getNewFileBaseName(res, "pdf", 0);
+        return getNewFileBaseName(res, extension, 0);
 
     }
 
